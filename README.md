@@ -60,7 +60,7 @@ todoapp_js/
 
 ### Lancer le serveur
 ```bash
-cd backend
+cd ./backend
 npm start
 ```
 
