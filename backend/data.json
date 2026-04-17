@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Faire le TP5 en JS de Vito Deriu (sinon il va te tapper)",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Faire le liveCoding de Cyril Rodrigues (histoire de finir en dépression)",
+      "completed": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Todo App</h1>
+
+        <div class="form">
+            <input type="text" id="new-todo" placeholder="Nouvelle tâche..." />
+            <button id="add-btn">Ajouter</button>
+        </div>
+
+        <a href="http://localhost:8080/todos" target="_blank" class="api-link">
+            <button>Voir l'API</button>
+        </a>
+
+        <p id="error-msg"></p>
+
+        <div id="todos-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
